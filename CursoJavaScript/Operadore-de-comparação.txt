@@ -1,0 +1,12 @@
+Operadores de comparação (condicionais)
+
+Servem para formar as expressões condicionais para o comando if:
+
+igual(==) - Valores iguais
+Idêntico (===) - Iguais e do mesmo tipo
+Diferente = (!=) - Diferentes
+Não idêntico (!==) - Diferentes e de tipos Diferentes
+Menor (<) - Menor que o valor da direita 
+Maior (>) - Maior que o da direita
+Menor igual (<=)
+Maior igual (>=)

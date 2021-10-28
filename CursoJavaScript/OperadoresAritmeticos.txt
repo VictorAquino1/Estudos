@@ -1,0 +1,10 @@
+Operadores aritméticos
+Operadores: 
+
+Adição(+) - Soma valores 
+Subtração(-) - Diferença de valores
+Multiplicação(*) - Produto dos valores
+Divisão(/) - Quociente dos valores 
+Módulo(%) - Resto existente em uma operação de divisão 
+Incremento(++) - Pré/pós Incremento
+Drecremento(--) - Pré/pós decremento

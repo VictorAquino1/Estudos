@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="in_objeto">
+    <button onclick="adicionar()">Adicionar</button>
+
+    <button onclick="ordenar()">Ordenar</button>
+    <div id="mensagem"></div>
+</body>
+</html>
+<script>
+    var objetos = Array('Cadeira','Impressora','Garfo')
+    
+    function adicionar(){
+        var valor = document.getElementById('in_objeto').value;
+        var pesquisa = objetos.indexOf(valor);
+        var incluir = objetos.unshift(valor);
+        
+        if(valor == ''){
+            alert('Informe um valor válido')
+        } else if(pesquisa > -1){
+            alert('Objeto já foi adicionado')
+        } else{
+            incluir
+            document.getElementById('in_objeto').value = '';
+        }
+    }
+  
+    function ordenar(){
+       var ordem = objetos.sort()
+       ordem
+        mensagem.innerHTML = `${ordem}`;
+    }
+    
+    console.log(objetos)
+    
+</script>

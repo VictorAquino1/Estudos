@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="caixaTexto" type="text" onfocus="foco()" onblur="perde_foco()">
+</body>
+</html>
+<script>
+var elemento = document.getElementById('caixaTexto')
+
+function foco(){
+elemento.style.backgroundColor = 'yellow';
+
+}
+function perde_foco(){
+    var valor = elemento.value
+    var tamanho = valor.length 
+    var estilo = elemento.style
+    console.log(tamanho)
+   if(tamanho < 3){
+    estilo.backgroundColor = 'red';
+   } else {
+    estilo.backgroundColor = 'green';
+   }
+}
+
+</script>

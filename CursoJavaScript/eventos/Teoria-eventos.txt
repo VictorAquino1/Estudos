@@ -1,0 +1,24 @@
+Eventos com o mouse 
+
+onclick - Elemento clicado 1 vez
+ondbclick - Elemento clicado 2 vezes
+onmouseup - Quando o click é liberado?
+onmouseover - Quando o mouse esta em cima do elemento
+onmouseout - Qundo o mouse sai de cima do elemento
+
+Eventos com teclado
+
+onkeydown - Quando pressiona uma tecla
+onkeypress - Instante onde a tecla esta pressionada (saida de caracter)
+onkeyup - Apos pressionar a tecla sobe 
+
+Eventos com a janela
+
+onresize - A pagina e redimensionada
+onscroll - Quando o scroll do mouse e acionado
+
+Eventos com formularios
+
+onfocus - Quando o elemento recebe o foco do cursor
+onblur - Quando o elemento perde o foco
+onchange - Quando o estado do elemento e selecionado

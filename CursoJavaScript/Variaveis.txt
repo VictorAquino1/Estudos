@@ -1,0 +1,16 @@
+Variaveis sao espaço em memoria, que permite armazenar coisas temporariamente 
+Tipos:
+String - Cadeias de caracteres
+Number - Valores numericos int - inteiros ou float - Numeros Reias
+boolean - Armazenamento de estados True ou False
+
+REGRAS DE DECLARAÇÃO -
+Não iniciar com numero, apenas letras
+Nao pode utilizar caracteres especiais
+Não pode ser iguais as palavras reservadas da linguagem
+
+Declarando variáveis com a instrução "var"
+
+Case sensitive
+Diferencia as letras maiusculas das minusculas 
+var curso =/ var CURSO =/ var Curso

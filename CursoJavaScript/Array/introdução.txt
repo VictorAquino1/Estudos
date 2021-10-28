@@ -1,0 +1,9 @@
+Array 
+O que é um array?
+São listas ordenadas: 
+variaveis que relacionam itens com indices ou []
+
+Exemplo 
+var lista_frutas = Array();
+lista_frutas[1] = 'Banana'
+lista_frutas[2] = 'maça'

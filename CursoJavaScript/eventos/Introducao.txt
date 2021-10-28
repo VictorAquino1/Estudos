@@ -1,0 +1,2 @@
+Possibilita captar eventos que acontecem no proprio navegador 
+e usar logica para muda-los

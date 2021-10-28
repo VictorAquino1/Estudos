@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+
+<script>
+    var numero_1 = prompt('Insira o primeiro número');
+    var operacao = prompt('Insira a operação desejada');
+    var numero_2 = prompt('Insira o segundo número');
+
+    numero_1 = parseInt(numero_1);
+    numero_2 = parseInt(numero_2);
+
+
+    var somar = function soma(numero_1, numero_2){
+        var resultado = numero_1 + numero_2;
+        document.write(`O resultado é:${resultado}`)
+    };
+
+    var subtracao = function subtrair(numero_1, numero_2){
+        var resultado = numero_1 - numero_2;
+        document.write(`O resultado é:${resultado}`)
+    };
+    
+
+    if(operacao == 'soma'){
+        somar(numero_1, numero_2)
+    }else if(operacao == 'subtração') {
+        subtracao(numero_1, numero_2)
+    };
+   
+</script>
+</head>
+<body>
+     
+
+
+</body>
+</html>

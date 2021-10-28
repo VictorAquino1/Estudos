@@ -1,0 +1,10 @@
+O que é BOM?
+Browser Object Model
+API que permite o acesso via JavaScript a recursos do browser 
+
+Window- 
+Janela do navegador
+window.document
+
+Screen-
+PAgina que é renderizada

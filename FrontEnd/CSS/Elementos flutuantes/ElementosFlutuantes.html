@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes</title>
+    <style>
+        #principal{
+            border: 5px solid red;
+            background: green;
+        }
+        .conteudo{
+            background: blue;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+           float: left;
+        }
+
+        .conteudo-zero{
+            background: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            
+        } 
+        /* CLEAR TIRA O FLOAT DOS ELEMENTOS */
+        .clear{
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="principal">
+
+        <div class="conteudo">
+            Conteúdo 1
+        </div>
+        
+        <div class="conteudo">
+            Conteúdo 2
+        </div>
+        
+        <div class="conteudo">
+            Conteúdo 3
+        </div>
+        <p class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis, repudiandae commodi quam laudantium obcaecati magnam blanditiis at aperiam fugit vel voluptas error nesciunt deleniti ad. Inventore, incidunt. Et, sapiente?</p>
+        <!-- <div class="clear"></div> -->
+
+    </div>
+</body>
+</html>

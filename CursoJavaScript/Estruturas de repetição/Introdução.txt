@@ -1,0 +1,3 @@
+As estruturas de repetição, laços ou loops
+
+Fazem a repetição de um codição até uma determinada condição em que nao necessita a repetição mais

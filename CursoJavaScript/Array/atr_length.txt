@@ -1,0 +1,2 @@
+length nas strings mostra o tamanho da palavra 
+length em array mostra o tamanho da lista com uma sequencia adequada (1,2,3,4,5,6,7,8)

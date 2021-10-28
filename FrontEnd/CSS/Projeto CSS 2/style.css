@@ -1,0 +1,139 @@
+/* Zerando as marcações padroes */
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* INICIO HEADER */
+#header{
+   text-align: center;
+   padding-top: 15px;
+   background-color: rgb(247, 182, 0);
+   padding-bottom: 12px;
+   
+}
+#titulo_header{
+    margin: 20px;
+    font-size: 45px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#tec_titulo{
+    color: rgb(78, 78, 78);
+}
+#blog_titulo{
+    color: white;
+}
+
+.menu_header{
+    display: inline;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+.menu_header:link, .menu_header:visited{
+    color: white;
+}
+.menu_header:hover{
+    color:rgb(247, 182, 0);
+    background-color: white;
+}
+/* FIM header */
+/* INICIO DO CONTEUDO DO SITE */
+
+#area_postagem{
+    width: 670px;
+    margin-left: 200px;
+    float: left;
+}
+.postagem{
+    width: 670px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+   
+   
+}
+.cabeçalho_postagem{
+    padding: 10px;
+    
+}
+
+.titulo_postagem{
+    color: rgb(247, 182, 0);
+    font-size: 25px;
+}
+.subtilo_postagem{
+    font-weight: normal;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.imagem_postagem{
+    text-align: center;
+    padding: 3px;
+}
+.conteudo_postagem{
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 17px;
+    
+}
+.lermais{
+    text-decoration: none;
+}
+.lermais:link, .lermais:visited{
+    color: rgb(247, 182, 0);
+    
+}
+.lermais:hover{
+    color:rgb(247, 182, 0);
+    text-decoration: underline;
+}
+/* FIM CONTEUDO SITE */
+/* MENU LATERAL */
+
+#area_lateral{
+    
+    width: 200px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 12px;
+}
+.menu_lateral{
+    width: 220px;
+    
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.titulo_postagem_recente{
+    background-color: rgb(204, 204, 204);
+    color: rgb(86, 86, 86);
+    font-size: 22px;
+    padding: 5px;
+}
+.conteudo_menu_postagem{
+    padding: 7px;
+    font-size: 15px;
+}
+/* FIM MENU LATERAL */
+#rodape{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(204, 204, 204);
+}
+

@@ -1,0 +1,10 @@
+O que é DOM? (document Object Model)
+
+API que permite o acesso via JavaScript aos elementos da página
+É a arvore hierarquica de elementos de uma página 
+
+document (API DOM) - Como selecionar os elementos
+getElementById()
+getElementsByTagName()
+getElementsByClassName()
+getElementsByName()

@@ -1,0 +1,3 @@
+null - ausencia intencional de valor
+
+undefined - O valor está indefinido 
