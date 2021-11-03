@@ -1,0 +1,20 @@
+Vetores 
+-Qualquer objeto declarado
+
+x <- c(1,2,3,4,5,6)
+-Vetor 6 posições 
+
+x
+-Le todo o vetor
+
+X[1]
+-Le a posição 1
+
+x[1] <- 10
+-Altera a posição 1
+
+
+Matrizes 
+-Duas dimensões(Linhas e colunas)
+-Permite um único tipo de dados
+-Linhas e colunas podem ter nomees 
