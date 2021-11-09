@@ -17,4 +17,27 @@ x[1] <- 10
 Matrizes 
 -Duas dimensões(Linhas e colunas)
 -Permite um único tipo de dados
--Linhas e colunas podem ter nomees 
+-Linhas e colunas podem ter nomes 
+exemplo:
+Para alterar ou ler uma posição
+Volcano[linha, coluna]
+
+Data Frame
+-Semelhante a Matrizes, porem
+   Permite diferentes tipos de dados por coluna
+-Duas dimensões(Linhas e colunas)
+-Linhas e colunas podem ter nomes 
+
+Exemplo
+Para acessar:
+Dataframe$coluna
+
+Listas 
+Varios tipos de conjuntos de dados juntos
+N objetos, em sequências, de classes diferentes
+Harman23.cor[1]
+
+Fatores
+Variaveis categóricas 
+Dados = c(1,2,3)
+Dados = factor(dados)
