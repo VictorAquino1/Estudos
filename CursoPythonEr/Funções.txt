@@ -1,0 +1,32 @@
+Funções 
+-Semelhantes e functions e procedures de qualquer linhagem 
+-Podem ou não requer argumentos (parâmetros)
+
+Exemplo:
+getwd()
+
+Argumentos
+O R é flexivel com argumentos
+    -Passar os argumentos pela ordem esperada, sem nome
+    -Voce pode nomear os argumentos
+    -Voce passar os primeiros sem nome e os ultimos nomeados, omitindo intermediarios
+
+    Exemplos:
+    head(x=iris, n=2)
+    head(iris)
+    head(iris,2)
+    head(n=22)
+
+Principais funções 
+Head() - Visualizar as primeiras linhas de um conjunto
+tail() - Visualizar as ultimas linhas de um conjunto
+summary() - Resumo estatistico de um conjunto de dados
+file.choose() - Caminho de arquivos
+dim() - Dimensões de um conjunto de dados(numero de colunas e numero de linhas)
+lenght() - comprimento de um vetor
+colnames() - Nomes das colunas de um conjunto de dados
+rownames() - Nomes das linhas de um conjunto de dados
+colbind() - Adiciona coluna
+predict() - Funções genéricas de Machina Learning
+VD1+VD2+VDN ~ VL1+VL2+VLn
+Venda ~ Temperatura

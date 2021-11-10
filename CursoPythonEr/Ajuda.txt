@@ -1,0 +1,5 @@
+Ajuda
+
+Para pedir Ajuda (Como se fosse o manual do linux)
+
+help(sd)

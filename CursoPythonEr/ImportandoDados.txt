@@ -1,0 +1,17 @@
+Importando dados
+Texto - 
+read.csv()
+
+Banco de dados - 
+Pacote RODBC
+odbcDriverConnect()
+sqlQuery()
+odbcClose()
+
+Planilha Excel
+Pacote XLSX 
+read.XLSX
+
+Outras ferramentas
+Pacote foreign
+read.arff

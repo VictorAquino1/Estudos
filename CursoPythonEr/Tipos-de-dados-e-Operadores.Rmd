@@ -1,0 +1,43 @@
+
+Declaração implicita numero
+```{r}
+delta = 8
+class(delta)
+````
+
+Declaração de integer
+```{r}
+delta = 8L
+class(delta)
+```
+
+```{r}
+logico = TRUE
+logico = F 
+caractere = "Texto"
+caractere = 'Texto'
+```
+
+Operações matematicas
+
+```{r}
+c = 2
+d = 4
+(c+d) * d
+e = (c+d) * d
+e
+```
+
+Testees lÓGICOS
+```{r}
+a=1
+b=2
+a<b
+a==b
+```
+
+Raiz Quadrada
+```{r}
+sqrt(2500)
+```
+
