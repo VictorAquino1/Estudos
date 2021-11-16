@@ -1,0 +1,17 @@
+List
+Lista é uma estrutura de dados:
+    -Homogenea
+    -Ordenada
+    -Inicia vazia, e seus elementos são alocados sob demanda
+    -Cada elemento ocupa um nó da lista
+
+tipo (interface): List
+
+Classes que implementam:ArrayList, LinkedList, etc.
+
+Vantagens:
+    -Tamanho variável
+    -Facilidade para se realizar inserções e deleções
+
+Desvantagens:
+    -Acesso sequencial aos elementos

@@ -1,0 +1,3 @@
+Tipo referencia - Aponta para um lugar na memoria heap (stack -> heap)
+
+tipo primitivo - É um lugar na memoria stack que armazena o valor 

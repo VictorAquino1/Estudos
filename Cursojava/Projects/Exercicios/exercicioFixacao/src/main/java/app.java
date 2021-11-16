@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-import javax.sound.sampled.SourceDataLine;
-import javax.swing.text.BadLocationException;
+
 
 public class app {
     public static void main(String[] args) {

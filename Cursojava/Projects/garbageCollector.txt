@@ -1,0 +1,6 @@
+Garbage collector
+
+-É um processo que automatiza o getenciamento de memória de um programa em 
+execução.
+
+-O garbage collector monitora os objetos alocados dinamicamente pelo programa (no heap), desalocando aqueles que não estão mais sendo utilizados.
