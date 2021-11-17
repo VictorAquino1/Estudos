@@ -1,0 +1,4 @@
+Enumerações 
+-é um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+
+-Palavra chave em Java: enume

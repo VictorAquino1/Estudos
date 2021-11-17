@@ -1,0 +1,5 @@
+Composição
+
+é um tipo associado que permite que um objeto contenha outro 
+
+Relaçã "Tem um" ou "Tem varios "
