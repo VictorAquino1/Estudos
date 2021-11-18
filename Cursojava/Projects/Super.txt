@@ -1,0 +1,3 @@
+Super
+É possível chamar a implementação da superclasse usando a palavra super.
+

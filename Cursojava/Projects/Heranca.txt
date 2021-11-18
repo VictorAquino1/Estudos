@@ -1,0 +1,10 @@
+Herança 
+- é um tiop de associação que permite que uma classe herde todos dados e comportamentos de outra
+- Definições importantes
+
+-Vantagens 
+    -Reuso
+    -Polimorfismo
+
+-Sintaxe
+    -Class A extends B
